@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+}
+.contact{
+    margin-top: 100px;
+    padding: 40px 50px;
+    width: 100%;
+}
+.contact .container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .container.address{
+    padding: 20px 30px;
+    margin-right:50px;
+}
+.contact .container .address .address_container h3{
+    color: #232323;
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.contact .container .address .address_container .box{
+    padding: 20px 0px;
+    margin-top: 10px;
+    border-bottom: 1px solid #b80404;
+}
+.contact .container .address .address_container .box .title{
+    display: flex;
+}
+.contact .container .address .address_container .box .title .icon{
+    font-size: 22px;
+    color:  #757575;
+}
+.contact .container .address .address_container .box .title h4{
+    margin-left: 15px;
+    color: #757575;
+    font-size: 22px;
+}
+.contact .container .address .address_container .box .detail p {
+    margin-top: 10px;
+    color: #22222222;
+     
+}
+.contact .container .message{
+    padding: 20px 30px;
+}
+
+.contact .container .message .message_container h3{
+    color: #b80404;
+    font-size: 26px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.contact .container .message .message_container .input_box{
+    margin-top: 15px;
+    width:  500px;
+}
+.contact .container .message .message_container .input_box input{
+    width: 100%;
+    padding: 12px;
+    border:  1px solid #b80404;
+    color: #22222222;
+    outline: none;
+}
+.contact .container .message .message_container .input_box textarea{
+    resize: none;
+    height: 250px;
+    width: 100%;
+    padding: 12px;
+    border:  1px solid #b80404;
+    color: #22222222;
+    outline: none;
+}
+.contact .container .message .message_container button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    outline:none;
+    background: #b80404;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.contact .container .message .message_container button:hover{
+    background: #fff;
+    color: #b80404;
+}

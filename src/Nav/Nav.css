@@ -1,0 +1,300 @@
+.nav .container .top_bar{
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #e3e3e3;
+}
+.nav .container .top_bar p{
+    color: #757575;
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav .container .top_bar .Link{
+    color:#757575;
+}
+.nav .container .mid_bar{
+    width: 100%;
+    
+}
+.nav .container .mid_bar .contant{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: #fff;
+}
+.nav .container .mid_bar .navicon{
+    display: none;
+}
+.nav .container .mid_bar .contant .logo img{
+    width: 220px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.nav .container .mid_bar .contant .logo img:hover{
+    opacity: 0.7;
+}
+.nav .container .mid_bar .contant .search_bar{
+    display: flex;
+    margin-left: -30px;
+    border: 1px solid #110202 ;
+
+}
+.nav .container .mid_bar .contant .search_bar input{
+    width: 500px;
+    padding: 14px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+}
+.nav .container .mid_bar .contant .search_bar button{
+    padding: 14px;
+    width: 100px;
+    outline: none;
+    border: 1px solid #110202 ;
+    background:#b80404 ;
+    cursor: pointer;
+    color: black;
+}
+.nav .container .mid_bar .contant .search_bar button:hover{
+    color: #fff;
+}
+.nav .container .mid_bar .contant .icons{
+    display: flex;
+    margin-top: 15px;
+}
+.nav .container .mid_bar .contant .icons .icon{
+    padding: 15px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size:20px ;
+    cursor: pointer;
+}
+.nav .container .mid_bar .contant .icons .icon:hover{
+    color: #b80404;
+}
+.nav .container .mid_bar .contant .icons p{
+    margin-top: 15px;
+    color: #110202;
+    font-style: italic;
+}
+.nav .container .mid_bar .contant .icons p:hover{
+    color: #b80404;
+    cursor: pointer;
+
+}
+
+.nav .container .bottom_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px fixed;
+    background: rgb(143, 137, 137) ;
+    margin-bottom: 5px;
+    position: absolute;
+    flex-wrap: wrap;
+
+}
+.nav .container .bottom_bar .user_detail{
+    margin-left: 10px;
+    border-radius: 5%;
+    display: flex;
+    background: #b80404  fixed;
+    width: 200px ;
+    height: 60px;
+    padding: 15px 40px fixed;
+    border: 1px solid #110202 ;
+    
+}
+.nav .container .bottom_bar .user_detail .icon{
+    color: #fff;
+    margin-top:10 px ;
+    font-size: 10 px;
+    font-weight: 600;
+
+}
+
+.nav .container .bottom_bar .user_detail  .detail{
+    margin-bottom: 10px;    
+}
+.nav .container .bottom_bar .user_detail  .detail .user{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.nav .container .bottom_bar .user_detail  .detail h2{
+    margin-left: 10px;
+    margin-top: 12.5px;
+    color:#110202;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+
+
+}
+.nav .container .bottom_bar .user_detail  .detail p{
+    color: #110202;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+.nav .container .bottom_bar .user_detail  .detail h2:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.nav .container .bottom_bar  ul{
+    display: flex;
+    margin-top: 15px;
+}
+.nav .container .bottom_bar  ul li{
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 5px ;    
+}
+.nav .container .bottom_bar  ul li .link{
+    padding: 15px 10px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: space-between ;
+    text-decoration: none;
+    cursor: pointer;    
+
+}
+.nav .container .bottom_bar  ul li .link:hover{
+    color: #b80404;
+    position:inherit;
+    text-decoration: underline black;
+}
+.nav .container .bottom_bar .offer{
+    padding: 10px 20px;
+    background: #b80404;
+    border-radius: 5%;
+    border: 1px solid #110202 ;
+    position: relative;
+    margin-right: 10px;
+}
+.nav .container .bottom_bar .offer h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #110202;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.nav .container .bottom_bar .offer h2:hover{
+    color: white;
+}
+ @media(max-width:850px){
+    
+    .nav .container .mid_bar .navicon{
+        display: block;
+        
+    }
+    .nav .container .mid_bar .navicon .navopen{
+        margin-left: -10px;
+        font-size: 22px;
+        margin-top: 15px;
+        cursor: pointer;
+        color:#b80404;
+    }
+    
+    .nav .container .mid_bar .navicon .closenav{
+        margin-left: -10px;
+        margin-top: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        color:#b80404;
+    }
+    .nav .container .mid_bar .contant .search_bar{
+        background: #fff;
+        width: 100%;
+        position: absolute;
+        margin-top: 70px;
+        display: flex;
+        border: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav .container .mid_bar .contant .search_bar input{
+    
+        width: 80%;
+        width: 500px;
+        padding: 14px;
+        outline: none;
+        border: 1px solid #bdbdbd;
+        
+    }
+    .nav .container .mid_bar .contant .icons{
+        margin-top: -5px;
+    }
+    .nav .container .mid_bar .contant .icons .icon{
+       border: none;
+       font-size: 18px;
+       background: none;
+       margin-bottom: 5px;
+    }
+    .nav .container .mid_bar .contant .logo img{
+        margin-bottom: 10px;
+        width: 200px;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    .nav .container .bottom_bar{
+        margin-top: 60px;
+        flex-direction: column;
+        display: none;
+    }
+    .nav .container .bottom_bar.active{
+        display: block;
+    }
+    .nav .container .bottom_bar ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .nav .container .bottom_bar ul li{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+   
+    .nav .container .bottom_bar .user_detail{
+        margin-top: 2px;
+        margin-left: 15px;
+        display: flex;
+        border-radius:none;
+        text-align: none;
+        background: #b80404  fixed;
+        width: 200px ;
+        height: 60px;
+        padding: 15px 40px fixed;
+        border: 1px solid #110202 ;
+        
+    }
+    .nav .container .bottom_bar .user_detail .detail {
+    }
+   
+    .nav .container .bottom_bar .offer{
+        padding: 10px 20px fixed;
+        background: none fixed;
+        border-radius: 10%;
+        border: none ;
+        position: relative;
+        display: flex;
+        margin-bottom: 10px;
+        
+    }
+    .nav .container .bottom_bar .offer h2{
+        margin-bottom: 10px;
+    }
+ }
